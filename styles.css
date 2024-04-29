@@ -102,9 +102,11 @@ footer {
 
   p {
     font-size: 12px;
+    padding-top: 16px;
   }
 
   p:last-child {
     font-size: 14px;
+    padding-top: 12px;
   }
 }
