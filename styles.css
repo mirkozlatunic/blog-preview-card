@@ -56,6 +56,11 @@ h1 {
   height: 36px;
 }
 
+h1:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
 p {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -75,4 +80,31 @@ p:last-child {
 footer {
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  .preview__card {
+    max-width: 279px;
+  }
+
+  h1 {
+    font-size: 20px;
+    height: 30px;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  h2:last-child {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  p:last-child {
+    font-size: 14px;
+  }
 }
