@@ -33,10 +33,6 @@ div {
   padding: 24px 0;
 }
 
-div:last-child {
-  padding: 0;
-}
-
 h2 {
   font-size: 14px;
   margin: 0;
